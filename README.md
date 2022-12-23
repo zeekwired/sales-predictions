@@ -62,8 +62,8 @@ Lowest outlet:
   - Linear Regression Model
   - Decision Tree Regressor Model
   
-  ### Models Evaluation & Results:
-  - Linear Regression Model
+### Models Evaluation & Results:
+- Linear Regression Model
     - Train MAE: 848.4782727267757
     - Test MAE: 803.9041870315474
     - Train MSE: 848.4782727267757
@@ -72,8 +72,8 @@ Lowest outlet:
     - Test RMSE: 1091.21
     - Train R2: 0.55
     - Test R2: 0.56
-    
-  - Decision Tree Regressor Model
+ 
+- Decision Tree Regressor Model
     - Train MAE: 762.6548715934737
     - Test MAE: 738.4803177114884
     - Train MSE: 762.6548715934737
@@ -83,9 +83,23 @@ Lowest outlet:
     - Train R2: 0.6039330279227335
     - Test R2: 0.5947024005843626
     
-    - The choosen model was `Decision Tree Regressor Model`.
-    - For the testing set, 0.59% of the variance in y was explained by X.
-    - The Mean Absolut Error was off by $738.48
-    - The Mean Squared Error was $1,118,206.87
-    - The Root Mean Squared Error calculated $1057.45
-    Using this model would not be perferred considering the prediction that it created. Taking in consideration of the regression metrics from the models performance, there is a discrepancy between the R2 values and the Root Mean Squared. Also, the Mean Squared Error is too high to consider predicting with this model.
+- The choosen model was `Decision Tree Regressor Model`.
+- For the testing set, 0.59% of the variance in y was explained by X.
+- The Mean Absolut Error was off by $738.48
+- The Mean Squared Error was $1,118,206.87
+- The Root Mean Squared Error calculated $1057.45
+Using this model would not be perferred considering the prediction that it created. Taking in consideration of the regression metrics from the models performance, there is a discrepancy between the R2 values and the Root Mean Squared. Also, the Mean Squared Error is too high to consider predicting with this model.
+
+## Recommendations
+Item Sales Insights
+- Item sales for outlets and by types can help you achieve maxium effiency with item sales.
+- By look at outlet types and what item MRP have you can deteremine what types should open in certain area's and what items have a better selling point.
+
+Model Performance
+- Overall, the best model in this analysis would have to be `DecisionTreeRegression`. There is still some basis affecting the models prediction, but it outperforms the `LinearRegression` model by far.
+## Limitations & Next Steps
+Now, I will continue forming this analysis to make it suitable for real world application. This is a starting point as in the future I will be dealing more with models and visualiztions like these.
+## For Further Information
+Contact information for questions:
+- Zach Dawson
+- zachd4145@gmail.com
