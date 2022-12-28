@@ -1,6 +1,8 @@
 # Sales Predictions & Insights
 # Analyzing Outlets and Outlets Types by Item Sales
+
 Zach Dawson
+
 When managing a business, often it is hard to keep track of sales when handling multiple stores. Predicting how certain types of stores with in you business can also be troubling to find out which type of store is producing the most sales.
 ### Data Source:
 Big Mart Sales Predicition https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
